@@ -17,7 +17,7 @@ app.get('/news', async (req, res) => {
                 q: query,
                 language: 'ko',
                 sortBy: 'publishedAt',
-                pageSize: 2,
+                pageSize: 5,
                 apiKey: API_KEY,
             },
         });
